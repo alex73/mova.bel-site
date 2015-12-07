@@ -1,0 +1,264 @@
+/********************************************************************\
+
+    Project: Movy Svetu
+    File:    movysvetu.css
+    Author:  Nikolai Krot <talpa@tut.by> <krot@mova.org>
+    Author:  Uladzimir Koshchanka <dassax@mail.com> <dassax@swiftdesk.com>
+    Last modified:  09-Sep-2003
+
+    Content: a set of CSS declarations
+
+\********************************************************************/
+
+.language_tree .family3,
+.language_tree .family4,
+.language_tree .family5,
+.language_tree .family6,
+.language_tree .family7,
+.language_tree .family8,
+.language_tree .family9,
+.language_tree .family10,
+.language_tree .family11 {
+    font-weight: normal;
+    font-size: 100%;
+    text-align: left;
+}
+
+.li {
+    display: block;
+}
+
+.tree_cntrl_bottom {
+    display: none;
+}
+
+.site_logo .site_name {
+    font-weight: bold;
+    font-size: 300%; /* size="7" */
+    font-family: "Monotype Corsiva";
+}
+
+.page_header {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.page_header .language_parent {
+    display: block;
+    font-weight: bold;
+    font-size: 110% ; /* size=3 */
+}
+
+.page_header .language {
+    display: block;
+    margin-top:  0.5em;
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 150% ; /* size=5 */
+/*    color: #0033ff; looks polny izvrat */
+}
+
+
+.family3 {
+    color: #CC6633;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.family4 {
+    color: #CC0033;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.family5 {
+    color: #CC9933;
+    text-align: center;
+    font-weight: bold;
+}
+
+.family6 {
+    color: #9900FF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.family7 {
+    color: #009999;
+    text-align: center;
+    font-weight: bold;
+}
+
+.family8 {
+    color: #99CCFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60%;
+}
+
+.family9 {
+/*    color: #0099CC; */
+    color: #FF00FF;
+    text-align: center;
+    font-weight: bold;
+}
+
+.family10 {
+/*    color: #33CC33; #00CC33 light green */
+    color: #666666;
+    text-align: center;
+    font-weight: bold;
+}
+
+.family11 {
+    color: #CCCCCC;
+    text-align: center;
+    font-weight: bold;
+}
+
+.language_tree .families,
+.language_tree .languages {
+    display: none;
+}
+
+.main_family {
+    display: block;
+    color: #CC0033;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 0.5em;
+}
+
+.main_family .families .family {
+    display: inline;
+    color: #0000CC;
+    font-weight: bold;
+}
+
+/********************************************************************\
+	Language Families list
+\********************************************************************/
+.list {
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.list2 {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	font-size: 120%;
+}
+
+.list_head {
+	color: #CC0033;
+	font-weight: bold;
+	font-size: l10%;
+}
+.list_item {
+	color: #0000CC;
+	font-size: 80%;
+}
+
+.list_item2 {
+	color: #006600;
+	font-size: 60%;
+}
+
+
+/********************************************************************\
+	per-country  pages
+\********************************************************************/
+
+.country_profile .keyword,
+.lang_profile .keyword {
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.country_profile,
+.lang_profile,
+.comments {
+	font-size: 80%;
+	text-align: justify;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.lang_profile {
+	margin-bottom: 3em;
+}
+
+.country_profile .item {
+	display: block;
+}
+
+.country_profile .keyword {
+	color: #FF0033;
+}
+
+.lang_profile .keyword {
+	color: #0000FF;
+}
+
+.section_name {
+	display: block;
+	font-weight: bold;
+}
+
+.comments .section_name {
+	color: #9900CC;
+}
+
+/*
+.lang_profile .lang_main {
+	font-weight: bold;
+}
+*/
+
+/********************************************************************\
+	languages index  pages
+\********************************************************************/
+
+.language_index {
+	text-align: justify;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.language_index .keyword {
+	/*font-variant: small-caps;*/
+	text-transform: uppercase; 
+	font-weight: bold;
+
+/*	color: teal;  /* /* #743905; */
+	color: #743905;
+/*	background-color: #FFCC66; */
+}
+
+.language_index .keyword A:link {
+	color: #743905;
+}
+
+.language_index .description {
+	text-transform: lowercase;
+}
+
+.alphabet_bar {
+	text-align: center;
+/*	word-spacing: 1cm; */
+}
+
+.alphabet_bar .focus {
+/*	background-color: yellow; */
+/*	background-color: #D9C591; */
+/*	background-color: #D89B19; */ /*#D99F03; */
+	background-color: #FFCC66; /* I will kill you if you change this nice color
+								to that funky bright blue! */
+}
+
+/*************************** THE END *********************************/
+
